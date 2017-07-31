@@ -1,0 +1,66 @@
+h1, .h1 {
+font-size: 36px;
+text-align: center; 
+font-size: 5em;
+  color: #404041;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #444;
+    border-bottom: 1px solid transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 1px solid #2196f3;
+    color: #2196f3;
+}
+.navBar {
+    width: 100%;
+}
+.navbar-default .navbar-brand {
+    padding-top: 8px;
+}
+.navbar-default {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.navbar-default img {
+    height: 35px;
+}
+.navbar-default .nav {
+    margin-left: 30px;
+}
+.bizDropContent {
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.portDropContent {
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.eduDropContent {
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.show {
+    background-color: black;
+}
