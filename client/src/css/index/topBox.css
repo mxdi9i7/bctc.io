@@ -43,7 +43,7 @@
 }
 .topBannerText ul li {
     display: inline;
-    padding: 0 40px;
+    padding-right: 5%;
     text-align: justify;
 }
 .topBannerText ul li a {
