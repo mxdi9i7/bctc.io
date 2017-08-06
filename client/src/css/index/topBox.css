@@ -1,5 +1,110 @@
 .topBox {
-    height:400px;
+    height:450px;
     width: 100%;
-    background-color: #444;
+    background-image: url(https://cdn.vox-cdn.com/thumbor/HM-hZnJs5urxX2bSqlQac8aOZ7k=/0x74:805x527/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/49518497/02-09-2015-customer-service-rep.0.jpg);
+    background-size: cover;
+
+}
+.topBoxText {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding-top: 150px;
+}
+.topBoxText h1 {
+    text-align: left;
+    color: white;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-shadow: 0 2px 4px rgba(30,40,53,.75);
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.topBoxText p {
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: 0 2px 4px rgba(30,40,53,.75);
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.topBanner {
+    width: 100%;
+    background-color: #64b5f6;
+    color: white;
+    padding: 15px 0;
+}
+.topBannerText {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.topBannerText ul {
+    margin-bottom: 0;
+}
+.topBannerText ul li {
+    display: inline;
+    padding: 0 40px;
+    text-align: justify;
+}
+.topBannerText ul li a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.CTABox {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+.CTABox h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.CTABox p {
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 1.8em;
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.CTAText {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.contactBox p {
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: left;
+}
+.contactBox input {
+    width: 100%;
+    height: 45px;
+    width: 420px;
+    min-width: 210px;
+    max-width: 100%;
+    padding: 6px 1em 5px;
+    border: 1px solid #d0d2d5;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #404853;
+    box-shadow: inset 0 3px 7px #f6f6f6;
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+.contactBox button {
+    background-color: #64b5f6;
+    color: white;
+    font-weight: 400;
+    padding: 8px 1em 7px;
+    font-size: 15px;
+    line-height: 30px;
+    width: 240px;
+    min-width: 180px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Helvetica Neue', sans-serif, 'Microsoft YaHei', 'Hiragino Sans GB';
 }
