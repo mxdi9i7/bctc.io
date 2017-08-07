@@ -38,7 +38,7 @@ class TopBox extends Component {
             <div className="CTABox">
                 <div className="CTAText">
                     <h1>想要了解更多？</h1>
-                    <p>点击 <a href="">这里</a> 参观我们的优秀项目，或拿起你手中的电话，拨打我们的号码：<a href="tel:6466397087">(646)-639-7087</a>，马上咨询！
+                    <p>点击 <a href="/api/users/">这里</a> 参观我们的优秀项目，或拿起你手中的电话，拨打我们的号码：<a href="tel:6466397087">(646)-639-7087</a>，马上咨询！
                     </p>
                     <div className="contactBox">
                         <p>或我们联系您</p>
