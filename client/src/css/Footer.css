@@ -1,0 +1,52 @@
+.footer-section {
+    background-color: #1e2835;
+    color: #8e939a;
+}
+.footer-section .row {
+    max-width: 700px;
+    display: block;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+.footer-section h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer-section .col-md-4 ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.footer-section ul li a {
+    color: #8e939a;
+    font-size: 16px;
+    transition: 0.1s;
+}
+.footer-section ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+.footer-section ul li {
+    margin: 10px 0;
+}
+.footer-section .copyRight {
+    max-width: 700px;
+    display: block;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+.copyRight ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.copyRight ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.copyRight ul li span {
+    color: white;
+}

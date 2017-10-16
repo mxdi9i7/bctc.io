@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../../css/Nav.css';
 import $ from 'jquery'
 import NavHelpers from './NavHelpers'
@@ -20,19 +21,18 @@ class Nav extends Component {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="/"><img src={logo} alt=""/></a>
+                    <Link className="navbar-brand" to="/"><img src={logo} alt=""/></Link>
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav">
-                            {/*<li className="active"><a href="#">Link <span className="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>*/}
-                            <li><a href="">公司简介</a></li>
-                            <li className="bizDrop"><a href="#">主营业务  <i className="fa fa-angle-down"></i></a></li>
-                            <li className="portDrop"><a href="#">项目案例  <i className="fa fa-angle-down"></i></a></li>
-                            <li className="eduDrop"><a href="#">教学培训  <i className="fa fa-angle-down"></i></a></li>
+                            <li className="bizDrop"><Link to="#">主营业务  <i className="fa fa-angle-down"></i></Link></li>
+                            <li className="portDrop"><Link to="#">项目案例  <i className="fa fa-angle-down"></i></Link></li>
+                            <li className="eduDrop"><Link to="#">教学培训  <i className="fa fa-angle-down"></i></Link></li>
+                            <li><Link to="#">技术博客</Link></li>
+                            <li><Link to="">公司简介</Link></li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="">登录 / 注册</a></li>
+                            <li><Link to="/auth">登录 / 注册</Link></li>
                         </ul>
                     </div>
                 </div>
